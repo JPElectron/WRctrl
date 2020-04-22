@@ -17,13 +17,13 @@ WRctrl.exe [IP_Address] [Port] [Off/On/Pulse] [Relay Number (optional)]
 
       WRctrl.exe 127.0.0.1 80 Pulse    ... connects to IP 127.0.0.1 on port 80 and pulse relay (for whatever duration is set in WebRelay)
 
-   Examples for WebRelay Dual (and all others with multiple relays)
+   Examples for WebRelay Dual/Quad (and all others with multiple relays)
 
-      WRctrl.exe 127.0.0.1 80 Off 2      ... connects to IP 127.0.0.1127.0.0.1 on port 80 and turns relay 2 Off
+      WRctrl.exe 127.0.0.1 80 Off 2      ... connects to IP 127.0.0.1 on port 80 and turns relay 2 Off
 
       WRctrl.exe 127.0.0.1 8080 On 1     ... connects to IP 127.0.0.1 on port 8080 and turns relay 1 On
 
-      WRctrl.exe 127.0.0.1 80 Pulse 2    ... connects to IP 127.0.0.1 on port 80 and pulse relay 2 (for whatever duration is set in WebRelay)
+      WRctrl.exe 127.0.0.1 80 Pulse 3    ... connects to IP 127.0.0.1 on port 80 and pulse relay 3 (for whatever duration is set in WebRelay)
 
 Don't use 127.0.0.1 silly, put the IP address of your own WebRelay.
 
