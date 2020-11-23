@@ -1,11 +1,12 @@
 # WRctrl
+
 Connects to WebRelay, changes relay state
 
 Designed to be run from the command-line with parameters to control the relay
 
 This program requires: Microsoft .NET Framework 4 Client Profile
 
-<b>Usage:</b>
+## Usage
 
 WRctrl.exe [IP_Address] [Port] [Off/On/Pulse] [Relay Number (optional)]
 
@@ -27,6 +28,16 @@ WRctrl.exe [IP_Address] [Port] [Off/On/Pulse] [Relay Number (optional)]
 
 Don't use 127.0.0.1 silly, put the IP address of your own WebRelay.
 
-<b>Related Links:</b>
+## Related Links
 
 WebRelay from http://www.controlbyweb.com/webrelay
+
+## License
+
+GPL does not allow you to link GPL-licensed components with other proprietary software (unless you publish as GPL too).
+
+GPL does not allow you to modify the GPL code and make the changes proprietary, so you cannot use GPL code in your non-GPL projects.
+
+If you wish to integrate this software into your commercial software package, or you are a corporate entity with more than 10 employees, then you should obtain a per-instance license, or a site-wide license, from http://jpelectron.com/buy
+
+[End of Line]
